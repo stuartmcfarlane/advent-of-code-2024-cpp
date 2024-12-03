@@ -80,13 +80,7 @@ void day01_part2(vector<string> input)
 }
 void day01()
 {
-    cout << "day 01" << endl;
     vector<string> input = readFileLines("data/day01.txt");
     day01_part1(input);
     day01_part2(input);
-}
-int main()
-{
-    cout << "Advent of code 2024" << endl;
-    day01();
 }

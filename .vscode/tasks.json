@@ -2,18 +2,18 @@
   "tasks": [
     {
       "type": "cppbuild",
-      "label": "C/C++: clang++ build active file",
+      "label": "C/C++: clang++ build aoc2024",
       "command": "/opt/homebrew/opt/llvm/bin/clang++",
       "args": [
         "-fcolor-diagnostics",
         "-fansi-escape-codes",
         "-g",
-        "${file}",
+        "${workspaceFolder}/src/*.cpp",
         "-o",
-        "${fileDirname}/${fileBasenameNoExtension}"
+        "${workspaceFolder}/aoc2024"
       ],
       "options": {
-        "cwd": "${fileDirname}"
+        "cwd": "${workspaceFolder}"
       },
       "problemMatcher": ["$gcc"],
       "group": {
