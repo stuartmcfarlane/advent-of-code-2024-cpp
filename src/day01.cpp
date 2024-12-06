@@ -6,25 +6,10 @@
 #include <vector>
 #include <algorithm>
 
+#include "utils.h"
+
 using namespace std;
 
-vector<string> readFileLines(const string filename)
-{
-    vector<string> lines;
-    fstream file;
-
-    file.open(filename, ios::in);
-    if (file.is_open())
-    {
-        string line;
-        while (getline(file, line))
-        {
-            lines.push_back(line);
-        }
-        file.close();
-    }
-    return lines;
-}
 void day01_part1(vector<string> input)
 {
     cout << "day 01 part 1";
