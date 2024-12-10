@@ -3,6 +3,7 @@
     "iostream": "cpp",
     "vector": "cpp",
     "fstream": "cpp",
-    "string": "cpp"
+    "string": "cpp",
+    "regex": "cpp"
   }
 }
